@@ -25,8 +25,8 @@
     self = [super init];
     if (self) {
         self.beautyFilters = [self defaultFilters];
-        // 默认索引为1
-        _selectedIndex = 1;
+        // 特殊机型默认关闭滤镜，高端机默认 1
+        _selectedIndex = [FURenderKit devicePerformanceLevel] == FUDevicePerformanceLevelLow_1 ? 0 : 1;
         [self setCurrentFilter];
     }
     return self;
@@ -55,7 +55,6 @@
     }
     FUBeautyFilterModel *model = self.beautyFilters[self.selectedIndex];
     model.filterLevel = value;
-    [FURenderKit shareRenderKit].beauty.filterName = model.filterName;
     [FURenderKit shareRenderKit].beauty.filterLevel = model.filterLevel;
 }
 

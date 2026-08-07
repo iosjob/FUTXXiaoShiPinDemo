@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+source 'https://cdn.cocoapods.org/'
 platform :ios, '9.0'
 install! 'cocoapods', :disable_input_output_paths => true
 use_frameworks!
@@ -16,7 +16,7 @@ target 'XiaoShiPinApp' do
   pod "MJRefresh"
   pod "MBProgressHUD"
   pod "SDWebImage", '5.19.4'
-  pod 'FURenderKit_nama', '8.13.0'
+  pod 'FURenderKit_nama', '9.0.1'
 end
 
 

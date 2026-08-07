@@ -99,6 +99,9 @@
 		6E650F2C27DB4F1500D37497 /* DeleteAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E650F2B27DB4F1500D37497 /* DeleteAccountViewController.m */; };
 		8A30E9C22D7DF576995EBAE8 /* TXLiteAVSDK_UGC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C54EC36B49BC871324A5F1F6 /* TXLiteAVSDK_UGC.xcframework */; };
 		BC42E64A1F750919B895C9AF /* Pods_XiaoShiPinApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C5E080F5371855F071110B /* Pods_XiaoShiPinApp.framework */; };
+		713D848712AC4E7A816C9AFF /* beauty_shape_low.json in Resources */ = {isa = PBXBuildFile; fileRef = 9D1F233A0ED4457586DE051D /* beauty_shape_low.json */; };
+		9FFEE72D45D44D148DAEEB88 /* beauty_skin_low.json in Resources */ = {isa = PBXBuildFile; fileRef = F17EF3802FC24AEEA874D057 /* beauty_skin_low.json */; };
+		1E9E51FE1F67408BBF47FC98 /* beauty_skin_lessThan2.json in Resources */ = {isa = PBXBuildFile; fileRef = BE6DE2CC78C442459ECDD977 /* beauty_skin_lessThan2.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -260,6 +263,9 @@
 		8C0241A1CF41E8DFFB38B885 /* Pods-XiaoShiPinApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XiaoShiPinApp.debug.xcconfig"; path = "Target Support Files/Pods-XiaoShiPinApp/Pods-XiaoShiPinApp.debug.xcconfig"; sourceTree = "<group>"; };
 		C54EC36B49BC871324A5F1F6 /* TXLiteAVSDK_UGC.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = TXLiteAVSDK_UGC.xcframework; path = ../../SDK/TXLiteAVSDK_UGC.xcframework; sourceTree = "<group>"; };
 		CA1752BBB634FB42BC710760 /* Pods-XiaoShiPinApp.dailybuild.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XiaoShiPinApp.dailybuild.xcconfig"; path = "Target Support Files/Pods-XiaoShiPinApp/Pods-XiaoShiPinApp.dailybuild.xcconfig"; sourceTree = "<group>"; };
+		9D1F233A0ED4457586DE051D /* beauty_shape_low.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = beauty_shape_low.json; sourceTree = "<group>"; };
+		F17EF3802FC24AEEA874D057 /* beauty_skin_low.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = beauty_skin_low.json; sourceTree = "<group>"; };
+		BE6DE2CC78C442459ECDD977 /* beauty_skin_lessThan2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = beauty_skin_lessThan2.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -311,6 +317,9 @@
 				2DB660C82D3E090E008EDEBC /* beauty_filter.json */,
 				2DB660C92D3E090E008EDEBC /* beauty_shape.json */,
 				2DB660CA2D3E090E008EDEBC /* beauty_skin.json */,
+				BE6DE2CC78C442459ECDD977 /* beauty_skin_lessThan2.json */,
+				F17EF3802FC24AEEA874D057 /* beauty_skin_low.json */,
+				9D1F233A0ED4457586DE051D /* beauty_shape_low.json */,
 			);
 			path = "美颜";
 			sourceTree = "<group>";
@@ -711,6 +720,9 @@
 				2DB660FE2D3E090E008EDEBC /* shaonv.bundle in Resources */,
 				2DB660FF2D3E090E008EDEBC /* linjia.bundle in Resources */,
 				2DB661002D3E090E008EDEBC /* beauty_skin.json in Resources */,
+				1E9E51FE1F67408BBF47FC98 /* beauty_skin_lessThan2.json in Resources */,
+				9FFEE72D45D44D148DAEEB88 /* beauty_skin_low.json in Resources */,
+				713D848712AC4E7A816C9AFF /* beauty_shape_low.json in Resources */,
 				2DB661012D3E090E008EDEBC /* beauty_filter.json in Resources */,
 				2DB661022D3E090E008EDEBC /* jianling.bundle in Resources */,
 				2DB661032D3E090E008EDEBC /* CatSparks.bundle in Resources */,

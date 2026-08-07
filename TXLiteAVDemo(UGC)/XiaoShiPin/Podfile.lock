@@ -16,7 +16,7 @@ PODS:
     - AFNetworking/NSURLSession
   - BeautySettingKit (0.1.0):
     - ZipArchive
-  - FURenderKit_nama (8.13.0)
+  - FURenderKit_nama (9.0.1)
   - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
   - MJRefresh (3.7.6)
@@ -32,7 +32,7 @@ PODS:
   - UGCKit/UGC (0.1.0):
     - AFNetworking (= 4.0.1)
     - BeautySettingKit
-    - FURenderKit_nama (= 8.13.0)
+    - FURenderKit_nama (= 9.0.1)
     - QCloudCOSXML/Slim (= 6.4.4)
     - QCloudQuic (= 6.3.9)
     - xmagickit
@@ -47,7 +47,7 @@ PODS:
 DEPENDENCIES:
   - AFNetworking
   - BeautySettingKit (from `BeautySettingKit/BeautySettingKit.podspec`)
-  - FURenderKit_nama (= 8.13.0)
+  - FURenderKit_nama (= 9.0.1)
   - MBProgressHUD
   - MJRefresh
   - SDWebImage (= 5.19.4)
@@ -55,7 +55,7 @@ DEPENDENCIES:
   - xmagickit (from `xmagickit/xmagickit.podspec`)
 
 SPEC REPOS:
-  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+  trunk:
     - AFNetworking
     - FURenderKit_nama
     - Masonry
@@ -79,7 +79,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
   BeautySettingKit: 4767b458268accc0439c2ccc74ab2fe11ca66558
-  FURenderKit_nama: 0737ac79ece72d2a23b56887cf57d70edb9586fe
+  FURenderKit_nama: 936d29fb42253030d3dab69a8b774ee025922f0b
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MJRefresh: 2fe7fb43a5167ceda20bb7e63f130c04fd1814a5
@@ -87,11 +87,11 @@ SPEC CHECKSUMS:
   QCloudCOSXML: b24d8a1225e4b3270d36bbcfa66478fedc1c6de6
   QCloudQuic: 81e2c29fa8122c1d5e8323a90349683e52c8e101
   SDWebImage: 066c47b573f408f18caa467d71deace7c0f8280d
-  UGCKit: ce4680ca08ac760002c09fe20271bb90f1788ed1
+  UGCKit: 1bdce9c51aa5294bfd98e50acd33b7db2d2688c2
   XMagic: 8150a6fb1a0743a582e39eea60ad75c007dbe3b3
   xmagickit: 4e57260929a55f37b749dc58fcfb4770160f429a
   ZipArchive: e25a4373192673e3229ac8d6e9f64a3e5713c966
 
-PODFILE CHECKSUM: a45880f6e61f9470a2ad54c701e43b0dab8a9fc7
+PODFILE CHECKSUM: 6708a77f48c7dc472b61ead7102e740b92a3fffc
 
 COCOAPODS: 1.16.2

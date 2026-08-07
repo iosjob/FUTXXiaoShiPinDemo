@@ -16,10 +16,12 @@ NS_ASSUME_NONNULL_BEGIN
 @interface FUDemoManager : NSObject
 
 /// 开关状态
-@property (nonatomic, assign, readonly) BOOL shouldRender;
+@property (nonatomic, assign) BOOL shouldRender;
 
-/// 贴纸方向
-@property (nonatomic, assign,) BOOL stickerH;
+/// 宿主工程兼容：前置摄像头/贴纸水平翻转等状态
+@property (nonatomic, assign) BOOL flipx;
+@property (nonatomic, assign) BOOL stickerH;
+@property (nonatomic, assign) BOOL isRender;
 
 + (instancetype)shared;
 
