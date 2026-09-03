@@ -16,7 +16,7 @@ target 'XiaoShiPinApp' do
   pod "MJRefresh"
   pod "MBProgressHUD"
   pod "SDWebImage", '5.19.4'
-  pod 'FURenderKit_nama', '9.0.1'
+  pod 'FURenderKit_nama', '9.1.2'
 end
 
 

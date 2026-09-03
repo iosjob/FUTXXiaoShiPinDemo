@@ -64,5 +64,5 @@ TODO: Add long description of the pod here.
   s.dependency 'QCloudQuic','6.3.9'
   s.dependency 'QCloudCOSXML/Slim','6.4.4'
   s.dependency 'AFNetworking','4.0.1'
-  s.dependency 'FURenderKit_nama', '9.0.1'
+  s.dependency 'FURenderKit_nama', '9.1.2'
 end
